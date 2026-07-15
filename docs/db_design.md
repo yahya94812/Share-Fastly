@@ -14,17 +14,12 @@
    7. created_at
 ---
 1. files
-   2. file_id (PK)
-   3. file_name
+   1. file_id (PK)
+   2. raw_file_name          -- the hashed file name with extension (in the blob)
+   3. original_file_name     -- the actual file name not the hashed version
    4. file_size
    5. mime_type
-   6. blob_url
-   7. uploaded_by (FK -> users.username)
    8. channel_name (FK -> channels.channel_name)
-   9. number_of_downloads      -- raw counter, incremented on download
+   9. number_of_downloads      -- raw counter, incremented on anonymous download
+   10. number_of_likes         -- raw counter, incremented on anonymous likes
    10. created_at
----
-1. file_likes
-   2. file_id (FK -> files.file_id)
-   3. username (FK -> users.username)
-   4. PRIMARY KEY (file_id, username)   -- prevents duplicate likes

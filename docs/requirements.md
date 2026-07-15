@@ -13,7 +13,7 @@
 3. files
 ## User
 - login or signup via email and password 
-- has a username (email id by default)
+- has a username (email id)
 - can create public or private channels
 ### Channels
 - channels are of 2 types (public and private)

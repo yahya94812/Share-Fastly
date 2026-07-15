@@ -1,0 +1,31 @@
+- **Define requirements** (Tools : you)
+    - What problem are you solving?
+    - Who are the users?
+    - What features are needed?
+- **Design the database** (Tools : you + ai)
+    - Identify entities (Users, Orders, Products, etc.)
+    - Define relationships
+    - Plan indexes and constraints
+- **Design the backend API** (Tools : you + ai)
+    - Authentication
+    - REST or GraphQL endpoints
+    - Request/response formats
+    - Error handling
+- **Create UI wireframes** (Tools : you + ai + yaml like text format)
+    - Sketch screens
+    - Plan user flows
+    - Decide navigation
+- **Build the backend**
+    - Database
+    - Business logic
+    - APIs
+    - Authentication
+- **Build the frontend**
+    - Components
+    - API integration
+    - State management
+    - Validation
+- **Integrate and test**
+    - Connect frontend to backend
+    - End-to-end testing
+    - Performance improvements
