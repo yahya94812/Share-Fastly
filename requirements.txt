@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic[email]
+python-dotenv
+
+pyjwt
+bcrypt
+
+sqlalchemy
+asyncpg
+
+azure-storage-blob
