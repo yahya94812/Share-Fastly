@@ -1,5 +1,8 @@
 ### phases
-1. implement auth apis
-2. implement channel apis
-3. implement file apis
+1. connect with postgres database
+2. connect with azure blob storage
+
+3. implement auth apis
+4. implement channel apis
+5. implement file apis
 
