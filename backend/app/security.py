@@ -5,9 +5,8 @@ import jwt
 from fastapi import Depends, Header, HTTPException, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 
-from app.config import ACCESS_TOKEN_EXPIRE_MINUTES, ALGORITHM, SECRET_KEY
+from app.config import ACCESS_TOKEN_EXPIRE_MINUTES, CHANNEL_TOKEN_EXPIRE_MINUTES, ALGORITHM, SECRET_KEY
 
-CHANNEL_TOKEN_EXPIRE_MINUTES = 30
 bearer_scheme = HTTPBearer(auto_error=False)
 
 

@@ -79,3 +79,5 @@
 14. every channel or files should be sorted according the the time stamp latest first
 15. each file should have a download button and a like button. if the user clicks on the like button, it should increment the number of likes for that file. if the user clicks on the download button, it should download the file and increment the number of downloads for that file. and save the like state in local to prevent multiple likes from the same user for the same file.
 16. the download and upload should handel by client side and should not be handled by the server. the server should only provide the signed url for the file to download or upload. and after upload make sure to call the complete api to notify the server as in api docs
+17. while login also store a time stamp because ACCESS_TOKEN_EXPIRE_MINUTES=60 * 24 * 7 * 4  # 28 days CHANNEL_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7  # 7 days 
+18. if the user is logged in and the access token is expired, log out the user and take them to the Explore screen. both incase of account token or channel token properly
